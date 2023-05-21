@@ -1,0 +1,18 @@
+name = "SPICEKernels"
+uuid = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
+authors = ["Joe Carpinelli <joseph.d.carpinelli@loopy.software>"]
+version = "0.1.0"
+
+[deps]
+AstroTime = "c61b5328-d09d-5e37-a9a8-0eb41c39009c"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+
+[extras]
+ArtifactUtils = "8b73e784-e7d8-4ea5-973d-377fed4e3bce"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
