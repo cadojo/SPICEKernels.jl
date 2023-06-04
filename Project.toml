@@ -10,6 +10,9 @@ DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 
+[compat]
+HTTP = "1"
+
 [extras]
 ArtifactUtils = "8b73e784-e7d8-4ea5-973d-377fed4e3bce"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
