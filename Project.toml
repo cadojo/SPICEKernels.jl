@@ -11,8 +11,14 @@ HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 SPICEApplications = "e12e0822-0612-48d4-a4bb-92984dd6b6ec"
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 
+[compat]
+julia = "1"
+AstroTime = "0.7"
+HTTP = "1"
+SPICEApplications = "0.1"
+Scratch = "1"
+
 [extras]
-ArtifactUtils = "8b73e784-e7d8-4ea5-973d-377fed4e3bce"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
