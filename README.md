@@ -6,10 +6,6 @@
 
 _All General Kernels provided by NASA!_
 
-> **Note**
->
-> This package is under development. Check back by June!
-
 > **Warning**
 >
 > This package is not affiliated with or endorsed by NASA, JPL, Caltech, or any

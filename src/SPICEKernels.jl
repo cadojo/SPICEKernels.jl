@@ -38,6 +38,8 @@ function __init__()
     global SPICE_KERNEL_DIR = @get_scratch!("spice-kernels")
 end
 
+include(joinpath("gen", "kernels.jl"))
+
 """
 Given the ephemeris file name, download the file and return a path to the file location. If
 a full URL is provided, that URL will be used. Otherwise, the `identifier` is assumed to be
@@ -46,67 +48,54 @@ If `cache` is enabled --- and it is by default --- the ephemeris file is downloa
 `SPICEKernels.jl` scratch space.
 """
 function getkernel(
-    identifier::AbstractString, type::Union{<:AbstractString,Nothing}=nothing;
-    directory::Union{<:AbstractString,Nothing}=nothing,
-    cache::Bool=true
-)
+        kernel::AbstractString;
+        to::Union{<:AbstractString,Nothing}=nothing,
+        cache::Bool=true
+    )
+
     global SPICE_KERNEL_DIR
 
-    if occursin("/", identifier)
-        url = identifier
-        filename = joinpath(SPICE_KERNEL_DIR, identifier)
-    else
-        url = HTTP.safer_joinpath(GENERAL_KERNEL_URL, type, identifier)
-        filename = identifier
-    end
-
-    if cache
-        if !isfile(filename)
-            download(url, filename)
+    try
+        path = GENERAL_KERNELS[kernel]
+    catch e
+        if e isa KeyError
+            path = kernel
+        else
+            rethrow(e)
         end
-    else
-        download(url, filename)
     end
 
-    if isnothing(directory)
-        return filename
-    else
-        localfile = joinpath(directory, identifier)
-        Base.cp(filename, localfile)
-        return localfile
+    filename = joinpath(SPICE_KERNEL_DIR, basename(path))
+
+    if !cache || !isfile(filename)
+        download(path, filename)
     end
 
+    if !isnothing(to)
+        Base.cp(filename, to)
+    end
+
+    return filename
 end
 
 """
 A supertype for all SPICE Kernels! To satisfy the `SPICEKernel` interface, your new type
 must implement each of the methods below.
 
-- `SPICEKernels.bodies(kernel)::AbstractSet{<:Integer}`
 - `SPICEKernels.type(kernel)::AbstractString`
-- `SPICEKernels.name(kernel)::AbstractString`
 - `SPICEKernels.path(kernel)::AbstractString`
 """
 abstract type SPICEKernel end
 
-function (kernel::SPICEKernel)(; cache=true, directory=nothing)
-    return getkernel(name(kernel), lowercase(type(kernel)); directory=directory, cache=cache)
+
+function (kernel::SPICEKernel)(; cache=true, to=nothing)
+    return getkernel(path(kernel); to=to, cache=cache)
 end
 
 """
 Return the underlying SPICE kernel type.
 """
 function type end
-
-"""
-Return the bodies contained within the provided kernel, if they are explicitly provided.
-"""
-function bodies end
-
-"""
-Return the kernel file name.
-"""
-function name end
 
 """
 Return the path to the kernel. This can be a URL!
@@ -146,7 +135,6 @@ A supertype representing Leapseconds Kernels (LSK).
 
 All subtypes must implement the following methods.
 
-- `SPICEKernels.bodies(kernel)::AbstractSet{<:Integer}`
 - `SPICEKernels.name(kernel)::AbstractString`
 """
 abstract type LeapsecondsKernel <: SPICEKernel end
@@ -178,6 +166,35 @@ All subtypes must implement the following methods.
 abstract type EphemerisKernel <: SPICEKernel end
 type(::EphemerisKernel) = "SPK"
 
-include("spk.jl")
+
+const SPICE_EXTENSIONS = Base.ImmutableDict(
+    ".bsp" => EphemerisKernel,
+    ".dsk" => DigitalShapeKernel,
+    ".pck" => PlanetaryConstantsKernel,
+    ".bds" => DigitalShapeKernel,
+    ".tf" => FramesKernel,
+    ".bpc" => PlanetaryConstantsKernel,
+    ".tpc" => PlanetaryConstantsKernel,
+    ".bpc" => PlanetaryConstantsKernel,
+    ".tls" => LeapsecondsKernel,
+)
+
+"""
+Fallback method to inspect the file extension of the provided kernel, and 
+return the expected kernel type. If the file extension is not recognized, 
+a `KeyError` is thrown.
+"""
+function type(kernel::Union{<:SPICEKernel, <:AbstractString})
+    if kernel isa SPICEKernel
+        name = basename(path(kernel))
+    else
+        name = basename(kernel)
+    end
+
+    ext = splitext(name)
+
+    return SPICE_EXTENSIONS[ext]
+end
+
 
 end # module SPICEKernels

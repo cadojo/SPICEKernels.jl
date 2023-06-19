@@ -1,0 +1,4 @@
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+IOCapture = "b5f81e59-6552-4d32-b1f0-c071b021bf89"
+SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
