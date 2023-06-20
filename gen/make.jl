@@ -156,7 +156,7 @@ function code!(kernels::AbstractSet{<:AbstractString}; force::Bool = false)
 
                     push!(toexport, name)
 
-                    write(file, """\n\"\"\"\nA $type kernel, sourced from $(dirname(kernel)).\n\n# Extended Help\n\n$(description(kernel))\n\"\"\"\n""")
+                    write(file, """\n\"\"\"\nA $type kernel, sourced from $(dirname(kernel)).\n\n# Extended Help\n\n```\n$(description(kernel))\n```\n\"\"\"\n""")
                     if "$kernel.pc" in kernellist
                         write(file, """const $name = $type(!Sys.iswindows() ? "$kernel" : "$kernel.pc")\n""")
                     else
@@ -176,4 +176,4 @@ end
 # The script portion!
 # 
 
-code!(traverse(SPICEKernels.GENERAL_KERNEL_URL); force = "FORCE" in uppercase.(ARGS))
+code!(traverse(SPICEKernels.GENERAL_KERNEL_URL); force = "--force" in lowercase.(ARGS))

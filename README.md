@@ -14,16 +14,31 @@ _All General Kernels provided by NASA!_
 
 ## Installation
 
-_Not yet registered._
-
 Choose one of the following two lines!
 
 ```julia
-Pkg.add("https://github.com/cadojo/SPICEKernels.jl")
+Pkg.add("SPICEKernels")
 ```
 
 ```julia
-]add https://github.com/cadojo/SPICEKernels.jl # in the Julia REPL
+]add SPICEKernels # in the Julia REPL
+```
+
+## Usage
+
+Inspect and download an ephemeris kernel from within Julia!
+
+```julia
+julia> using SPICE, SPICEKernels
+
+julia> ?latest_leapseconds_lsk
+
+julia> ?de440s
+
+julia> furnsh(latest_leapseconds_lsk())
+
+julia> furnsh(de440s())
+
 ```
 
 ## Motivation
@@ -32,6 +47,6 @@ _Why this?_
 
 This package allows you to check out what general kernels are available, all
 from the Julia REPL / language server! Each kernel is represented by a type,
-where the SPICE kernel flavor is encoded in Julia's type system and within an
-enumerated type. Each requested kernel is cached by default, so there's no need
+where the SPICE kernel flavor is encoded in Julia's type system.
+Each requested kernel is cached by default, so there's no need 
 to download a kernel more than once!

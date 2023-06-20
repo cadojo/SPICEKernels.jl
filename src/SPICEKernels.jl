@@ -8,10 +8,6 @@ Download any and all General Kernels provided by NASA JPL!
 
 # Extended Help
 
-## README
-
-$(README)
-
 ## Imports
 
 $(IMPORTS)
@@ -44,7 +40,7 @@ SPICE_KERNEL_DIR = ""
 const GENERAL_KERNEL_URL = "https://naif.jpl.nasa.gov/pub/naif/generic_kernels"
 
 function __init__()
-    global SPICE_KERNEL_DIR = @get_scratch!("spice-kernels")
+    global SPICE_KERNEL_DIR = @get_scratch!("kernels")
 end
 
 include(joinpath("gen", "map.jl"))
