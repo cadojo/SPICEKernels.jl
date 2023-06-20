@@ -31,9 +31,7 @@ Inspect and download an ephemeris kernel from within Julia!
 ```julia
 julia> using SPICE, SPICEKernels
 
-julia> ?latest_leapseconds_lsk
-
-julia> ?de440s
+julia> ??de440s # Extended Help shows a summary of the ephemeris file
 
 julia> furnsh(latest_leapseconds_lsk())
 
