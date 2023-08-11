@@ -1,7 +1,7 @@
 name = "SPICEKernels"
 uuid = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
 authors = ["Joe Carpinelli <joseph.d.carpinelli@loopy.software>"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -14,7 +14,7 @@ Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 [compat]
 DocStringExtensions = "0.9"
 HTTP = "1"
-SPICEApplications = "0.2"
+SPICEApplications = "0.3"
 Scratch = "1"
 julia = "1"
 
