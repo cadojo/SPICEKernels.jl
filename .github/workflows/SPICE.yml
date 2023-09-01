@@ -2,7 +2,7 @@ name: SPICE
 
 on:
   schedule:
-    - cron: '0 6 * * 4'
+    - cron: '0 16 * * 4'
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
             julia --project=gen -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
       - name: Run Regression
         run:
-            julia --project=gen gen/make.jl
+            JULIA_DEBUG=Main,SPICEKernels julia --project=gen gen/make.jl
   commit:
     runs-on: ${{ matrix.os }}
     strategy:

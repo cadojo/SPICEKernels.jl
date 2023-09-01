@@ -1,5 +1,5 @@
 """
-Download any and all General Kernels provided by NASA JPL!
+Download any and all Generic Kernels provided by NASA JPL!
 
 !!! warning
     This package is not affiliated with or endorsed by NASA, JPL, or any
@@ -37,7 +37,7 @@ export
     fetchkernel
 
 SPICE_KERNEL_DIR = ""
-const GENERAL_KERNEL_URL = "https://naif.jpl.nasa.gov/pub/naif/generic_kernels"
+const GENERIC_KERNEL_URL = "https://naif.jpl.nasa.gov/pub/naif/generic_kernels"
 
 function __init__()
     global SPICE_KERNEL_DIR = @get_scratch!("kernels")
@@ -48,7 +48,7 @@ include(joinpath("gen", "map.jl"))
 """
 Given the ephemeris file name, download the file to the `SPICEKernels.jl` scratch space, 
 and return a path to the file location. If a full URL or path is provided, that path will 
-be used. Otherwise, the `kernel` is assumed to be a SPICE General Kernel. 
+be used. Otherwise, the `kernel` is assumed to be a SPICE Generic Kernel. 
 
 # Extended Help
 
@@ -67,7 +67,7 @@ function fetchkernel(
     local kernelpath
 
     try
-        kernelpath = GENERAL_KERNELS[kernel]
+        kernelpath = GENERIC_KERNELS[kernel]
     catch e
         if e isa KeyError
             kernelpath = kernel
@@ -80,7 +80,7 @@ function fetchkernel(
     cachename = joinpath(SPICE_KERNEL_DIR, basename(kernelpath))
     filename = joinpath(directory, basename(kernelpath))
 
-    if isfile(filename)
+    if !ignorecache && isfile(filename)
         @debug "File $filename already exists."
         return filename
     elseif isfile(kernelpath) # if local
@@ -90,7 +90,7 @@ function fetchkernel(
         @debug "Copying $cachename to $filename"
         Base.cp(cachename, filename; follow_symlinks=true, force=false)
     else # if download necessary
-        @info "Downloading $kernelpath to $filename"
+        @debug "Downloading $kernelpath to $filename"
         Downloads.download(kernelpath, filename)
     end
     

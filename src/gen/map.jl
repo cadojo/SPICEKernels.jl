@@ -3,7 +3,7 @@
 #
 
 """
-Links to all General Kernels hosted by naif.jpl.nasa.gov, as of 2023-08-11. [1]
+Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2023-09-01. [1]
 
 # Extended Help
 
@@ -11,7 +11,7 @@ Links to all General Kernels hosted by naif.jpl.nasa.gov, as of 2023-08-11. [1]
 
 [1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/
 """
-const GENERAL_KERNELS = Base.ImmutableDict(
+const GENERIC_KERNELS = Base.ImmutableDict(
     "near-a-msi-5-erosshape-v1_0_512q.bds" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/eros/near-a-msi-5-erosshape-v1_0_512q.bds",
     "near-a-msi-5-erosshape-v1_0_64q.bds" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/eros/near-a-msi-5-erosshape-v1_0_64q.bds",
     "hay_a_amica_5_itokawashape_v1_0_512q.bds" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/itokawa/hay_a_amica_5_itokawashape_v1_0_512q.bds",
@@ -49,7 +49,7 @@ const GENERAL_KERNELS = Base.ImmutableDict(
     "naif0012.tls.pc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0012.tls.pc",
     "Gravity.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/Gravity.tpc",
     "de-403-masses.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/de-403-masses.tpc",
-    "earth_000101_231102_230809.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_231102_230809.bpc",
+    "earth_000101_231123_230830.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_231123_230830.bpc",
     "earth_200101_990825_predict.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_200101_990825_predict.bpc",
     "earth_720101_230601.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_720101_230601.bpc",
     "earth_fixed.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_fixed.tf",
