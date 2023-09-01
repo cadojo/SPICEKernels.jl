@@ -36,7 +36,14 @@ export
     kernel,
     fetchkernel
 
+"""
+The directory where all SPICE kernels are cached, by default.
+"""
 SPICE_KERNEL_DIR = ""
+
+"""
+The URL of NASA's generic kernel HTTP server.
+"""
 const GENERIC_KERNEL_URL = "https://naif.jpl.nasa.gov/pub/naif/generic_kernels"
 
 function __init__()

@@ -13,3 +13,7 @@
 
                                $(DOCSTRING)
                                """
+
+@template (DEFAULT,) = """
+                      $(DOCSTRING)
+                      """
