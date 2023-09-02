@@ -4,13 +4,13 @@
 
 
 """
-A DSK kernel of size 1.1 GB, linked from https://naif.jpl.nasa.gov [1].
+A DSK kernel of size 106.3 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -38,13 +38,13 @@ Body:                               2000433 (EROS)
 const near_a_msi_5_erosshape_v1_0_512q = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/eros/near-a-msi-5-erosshape-v1_0_512q.bds")
 
 """
-A DSK kernel of size 3.9 MB, linked from https://naif.jpl.nasa.gov [1].
+A DSK kernel of size 3.7 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -72,13 +72,13 @@ Body:                               2000433 (EROS)
 const near_a_msi_5_erosshape_v1_0_64q = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/eros/near-a-msi-5-erosshape-v1_0_64q.bds")
 
 """
-A DSK kernel of size 1.6 GB, linked from https://naif.jpl.nasa.gov [1].
+A DSK kernel of size 148.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -106,13 +106,13 @@ Body:                               2025143 (ITOKAWA)
 const hay_a_amica_5_itokawashape_v1_0_512q = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/itokawa/hay_a_amica_5_itokawashape_v1_0_512q.bds")
 
 """
-A DSK kernel of size 4.8 MB, linked from https://naif.jpl.nasa.gov [1].
+A DSK kernel of size 4.5 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -140,13 +140,13 @@ Body:                               2025143 (ITOKAWA)
 const hay_a_amica_5_itokawashape_v1_0_64q = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/itokawa/hay_a_amica_5_itokawashape_v1_0_64q.bds")
 
 """
-A DSK kernel of size 41.3 MB, linked from https://naif.jpl.nasa.gov [1].
+A DSK kernel of size 39.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -174,13 +174,13 @@ Body:                               2000004 (VESTA)
 const vesta_gaskell_256 = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/vesta/vesta_gaskell_256.bds")
 
 """
-A DSK kernel of size 491.5 KB, linked from https://naif.jpl.nasa.gov [1].
+A DSK kernel of size 480.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -208,13 +208,13 @@ Body:                               2000004 (VESTA)
 const vesta_thomas_1997 = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/vesta/vesta_thomas_1997.bds")
 
 """
-A DSK kernel of size 1.6 GB, linked from https://naif.jpl.nasa.gov [1].
+A DSK kernel of size 149.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -242,13 +242,13 @@ Body:                               401 (PHOBOS)
 const phobos512 = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/satellites/phobos512.bds")
 
 """
-A DSK kernel of size 10.5 MB, linked from https://naif.jpl.nasa.gov [1].
+A DSK kernel of size 10.0 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -276,13 +276,13 @@ Body:                               401 (PHOBOS)
 const phobos_2014_09_22 = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/satellites/phobos_2014_09_22.bds")
 
 """
-A DSK kernel of size 17.2 MB, linked from https://naif.jpl.nasa.gov [1].
+A DSK kernel of size 16.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -310,13 +310,13 @@ Body:                               401 (PHOBOS)
 const phobos_3_3 = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/satellites/phobos_3_3.bds")
 
 """
-A FK kernel of size 7.5 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 7.3 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -337,7 +337,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -358,7 +358,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -379,7 +379,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -394,13 +394,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const jup346_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/jup346_nameid.tf")
 
 """
-A FK kernel of size 21.4 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 20.9 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -415,13 +415,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const moon_080317 = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/moon_080317.tf")
 
 """
-A FK kernel of size 8.5 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 8.3 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -436,13 +436,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const moon_assoc_me = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/moon_assoc_me.tf")
 
 """
-A FK kernel of size 8.5 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 8.3 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -457,13 +457,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const moon_assoc_pa = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/moon_assoc_pa.tf")
 
 """
-A FK kernel of size 20.1 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 19.6 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -484,7 +484,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -505,7 +505,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -520,13 +520,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const sat452_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat452_nameid.tf")
 
 """
-A FK kernel of size 6.3 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 6.2 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -541,13 +541,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const sat453_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat453_nameid.tf")
 
 """
-A FK kernel of size 4.7 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 4.6 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -562,13 +562,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const dss_17_prelim_itrf93_161110 = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/dss_17_prelim_itrf93_161110.tf")
 
 """
-A FK kernel of size 4.8 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 4.7 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -583,13 +583,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const dss_17_prelim_itrf93_190814_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/dss_17_prelim_itrf93_190814.tf")
 
 """
-A FK kernel of size 8.7 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 8.5 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -604,13 +604,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const dss_23_placeholder_itrf93_201017_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/dss_23_placeholder_itrf93_201017.tf")
 
 """
-A FK kernel of size 6.8 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 6.7 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -625,13 +625,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const dss_30_itrf93_210201_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/dss_30_itrf93_210201.tf")
 
 """
-A FK kernel of size 4.6 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 4.4 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -646,13 +646,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const dss_59_prelim_itrf93_220921_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/dss_59_prelim_itrf93_220921.tf")
 
 """
-A FK kernel of size 11.3 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 11.1 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -667,13 +667,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const dss_69_prelim_itrf93_201215_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/dss_69_prelim_itrf93_201215.tf")
 
 """
-A FK kernel of size 63.7 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 62.2 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -688,13 +688,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const earth_topo_201023 = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/earth_topo_201023.tf")
 
 """
-A FK kernel of size 684.1 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 668.1 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -709,13 +709,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const ndosl_140530_v01_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/ndosl_140530_v01.tf")
 
 """
-A FK kernel of size 732.0 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 714.9 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -730,13 +730,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const ndosl_190716_v01_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/ndosl_190716_v01.tf")
 
 """
-A FK kernel of size 732.0 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 714.9 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -751,13 +751,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const ndosl_190716_v02_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/ndosl_190716_v02.tf")
 
 """
-A LSK kernel of size 5.3 KB, linked from https://naif.jpl.nasa.gov [1].
+A LSK kernel of size 5.1 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -772,13 +772,13 @@ A `SPICEKernels.LeapSecondsKernel`. If the kernel type is not binary, open the f
 const latest_leapseconds_lsk = LSK(!Sys.iswindows() ? "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/latest_leapseconds.tls" : "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/latest_leapseconds.tls.pc")
 
 """
-A LSK kernel of size 5.1 KB, linked from https://naif.jpl.nasa.gov [1].
+A LSK kernel of size 5.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -793,13 +793,13 @@ A `SPICEKernels.LeapSecondsKernel`. If the kernel type is not binary, open the f
 const naif0011 = LSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0011.tls")
 
 """
-A LSK kernel of size 5.3 KB, linked from https://naif.jpl.nasa.gov [1].
+A LSK kernel of size 5.1 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -814,13 +814,13 @@ A `SPICEKernels.LeapSecondsKernel`. If the kernel type is not binary, open the f
 const naif0012_lsk = LSK(!Sys.iswindows() ? "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0012.tls" : "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0012.tls.pc")
 
 """
-A PCK kernel of size 14.8 KB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 14.4 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -835,13 +835,13 @@ A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, ope
 const Gravity = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/Gravity.tpc")
 
 """
-A PCK kernel of size 2.0 KB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 1.9 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -856,17 +856,17 @@ A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, ope
 const de_403_masses = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/de-403-masses.tpc")
 
 """
-A PCK kernel of size 4.6 MB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 4.3 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_231123_230830.bpc
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_231124_230901.bpc
 
 ## Description
 
@@ -875,26 +875,26 @@ to scratchspace if necessary.
 BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
  
  
-Summary for: earth_000101_231123_230830.bpc
+Summary for: earth_000101_231124_230901.bpc
  
 Frame: ITRF93 (3000)
        Start of Interval (ET)              End of Interval (ET)
        -----------------------------       -----------------------------
-       2000 JAN 01 00:01:04.183            2023 NOV 23 00:01:09.182
+       2000 JAN 01 00:01:04.183            2023 NOV 24 00:01:09.182
  
 
 ```
 """
-const earth_000101_231123_230830 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_231123_230830.bpc")
+const earth_000101_231124_230901 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_231124_230901.bpc")
 
 """
-A PCK kernel of size 15.1 MB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 14.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -920,13 +920,13 @@ Frame: ITRF93 (3000)
 const earth_200101_990825_predict = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_200101_990825_predict.bpc")
 
 """
-A PCK kernel of size 9.8 MB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 9.3 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -958,7 +958,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -973,13 +973,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const earth_fixed = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_fixed.tf")
 
 """
-A PCK kernel of size 4.6 MB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 4.3 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -997,7 +997,7 @@ Summary for: earth_latest_high_prec.bpc
 Frame: ITRF93 (3000)
        Start of Interval (ET)              End of Interval (ET)
        -----------------------------       -----------------------------
-       2000 JAN 01 00:01:04.183            2023 NOV 23 00:01:09.182
+       2000 JAN 01 00:01:04.183            2023 NOV 24 00:01:09.182
  
 
 ```
@@ -1005,13 +1005,13 @@ Frame: ITRF93 (3000)
 const earth_latest_high_prec = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_latest_high_prec.bpc")
 
 """
-A PCK kernel of size 6.3 KB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 6.1 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1026,13 +1026,13 @@ A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, ope
 const gm_de431 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/gm_de431.tpc")
 
 """
-A PCK kernel of size 12.7 KB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 12.4 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1047,13 +1047,13 @@ A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, ope
 const gm_de440 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/gm_de440.tpc")
 
 """
-A PCK kernel of size 12.6 KB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 12.3 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1068,13 +1068,13 @@ A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, ope
 const mars_iau2000_v1 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_iau2000_v1.tpc")
 
 """
-A PCK kernel of size 2.9 MB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 2.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1100,13 +1100,13 @@ Frame: 31002
 const moon_pa_de403_1950_2198 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de403_1950-2198.bpc")
 
 """
-A PCK kernel of size 1.2 MB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 1.1 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1132,13 +1132,13 @@ Frame: 31004
 const moon_pa_de418_1950_2050 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de418_1950-2050.bpc")
 
 """
-A PCK kernel of size 1.8 MB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 1.7 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1164,13 +1164,13 @@ Frame: 31006
 const moon_pa_de421_1900_2050 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de421_1900-2050.bpc")
 
 """
-A PCK kernel of size 12.9 MB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 12.3 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1196,13 +1196,13 @@ Frame: 31008
 const moon_pa_de440_200625 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de440_200625.bpc")
 
 """
-A PCK kernel of size 126.1 KB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 123.2 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1217,13 +1217,13 @@ A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, ope
 const pck00010 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00010.tpc")
 
 """
-A PCK kernel of size 131.2 KB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 128.2 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1238,13 +1238,13 @@ A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, ope
 const pck00011 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc")
 
 """
-A PCK kernel of size 132.2 KB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 129.1 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1259,13 +1259,13 @@ A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, ope
 const pck00011_n0066 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011_n0066.tpc")
 
 """
-A SPK kernel of size 61.9 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 59.0 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1390,13 +1390,13 @@ Bodies: CERES (2000001)*      2000115*              2000366*
 const codes_300ast_20100725_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/codes_300ast_20100725.bsp")
 
 """
-A FK kernel of size 25.6 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 25.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1411,13 +1411,13 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const codes_300ast_20100725_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/codes_300ast_20100725.tf")
 
 """
-A SPK kernel of size 146.4 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 143.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1443,13 +1443,13 @@ Body: CHURYUMOV-GERASIMENKO (1000012)
 const C_G_1000012_2012_2017 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/C_G_1000012_2012_2017.bsp")
 
 """
-A SPK kernel of size 14.9 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 14.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1475,13 +1475,13 @@ Body: SIDING SPRING (1003228)
 const c2013a1_s105_merged = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/c2013a1_s105_merged.bsp")
 
 """
-A SPK kernel of size 126.0 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 123.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1507,13 +1507,13 @@ Body: 1003203
 const ison = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/ison.bsp")
 
 """
-A SPK kernel of size 88.1 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 86.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1539,13 +1539,13 @@ Body: SIDING SPRING (1003228)
 const siding_spring_8_19_14 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/siding_spring_8-19-14.bsp")
 
 """
-A SPK kernel of size 38.9 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 37.1 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1579,13 +1579,13 @@ Bodies: MERCURY BARYCENTER (1)   SUN (10)
 const siding_spring_s46 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/siding_spring_s46.bsp")
 
 """
-A SPK kernel of size 3.2 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1611,13 +1611,13 @@ Body: 391
 const L1_de431 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L1_de431.bsp")
 
 """
-A SPK kernel of size 3.2 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1643,13 +1643,13 @@ Body: 392
 const L2_de431 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L2_de431.bsp")
 
 """
-A SPK kernel of size 3.2 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1675,13 +1675,13 @@ Body: 394
 const L4_de431 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L4_de431.bsp")
 
 """
-A SPK kernel of size 3.2 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1707,13 +1707,13 @@ Body: 395
 const L5_de431 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L5_de431.bsp")
 
 """
-A SPK kernel of size 1.2 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 114.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1743,13 +1743,13 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 const de430 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp")
 
 """
-A SPK kernel of size 14.4 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 1.3 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1779,13 +1779,13 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 const de431_part_1 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de431_part-1.bsp")
 
 """
-A SPK kernel of size 18.7 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 1.7 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1815,13 +1815,13 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 const de431_part_2 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de431_part-2.bsp")
 
 """
-A SPK kernel of size 10.9 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 10.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1851,13 +1851,13 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 const de432s = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de432s.bsp")
 
 """
-A SPK kernel of size 1.2 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 114.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1887,13 +1887,13 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 const de435 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de435.bsp")
 
 """
-A SPK kernel of size 1.2 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 114.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1923,13 +1923,13 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 const de438 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de438.bsp")
 
 """
-A SPK kernel of size 1.2 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 114.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1959,13 +1959,13 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 const de440 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de440.bsp")
 
 """
-A SPK kernel of size 32.7 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 31.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -1995,13 +1995,13 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 const de440s = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de440s.bsp")
 
 """
-A SPK kernel of size 16.5 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 1.5 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2031,13 +2031,13 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 const de441_part_1 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-1.bsp")
 
 """
-A SPK kernel of size 16.6 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 1.5 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2067,13 +2067,13 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 const de441_part_2 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-2.bsp")
 
 """
-A SPK kernel of size 54.4 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 51.9 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2100,13 +2100,13 @@ Bodies: EARTH BARYCENTER (3)    SUN (10)                JUPITER (599)
 const jup344_s2003_j24 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344-s2003_j24.bsp")
 
 """
-A SPK kernel of size 3.1 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 297.5 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2157,13 +2157,13 @@ Bodies: EARTH BARYCENTER (3)    AITNE (531)             557
 const jup344 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344.bsp")
 
 """
-A SPK kernel of size 1.0 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 96.3 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2195,13 +2195,13 @@ Bodies: EARTH BARYCENTER (3)    55511                   55518
 const jup346 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup346.bsp")
 
 """
-A SPK kernel of size 11.4 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 1.1 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2231,13 +2231,13 @@ Bodies: EARTH BARYCENTER (3)    EUROPA (502)            ADRASTEA (515)
 const jup365 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.bsp")
 
 """
-A SPK kernel of size 4.7 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 448.1 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2265,13 +2265,13 @@ Bodies: EARTH BARYCENTER (3)  EARTH (399)           MARS (499)
 const mar097 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar097.bsp")
 
 """
-A SPK kernel of size 16.4 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 1.5 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2301,13 +2301,13 @@ Bodies: EARTH BARYCENTER (3)    NEREID (802)            LARISSA (807)
 const nep095 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep095.bsp")
 
 """
-A SPK kernel of size 1.1 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 100.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2334,13 +2334,13 @@ Bodies: EARTH BARYCENTER (3)    SUN (10)                TRITON (801)
 const nep097 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.bsp")
 
 """
-A SPK kernel of size 21.2 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 2.0 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2366,13 +2366,13 @@ Body: TRITON (801)
 const nep097xl_801 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097xl-801.bsp")
 
 """
-A SPK kernel of size 3.7 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 353.6 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2398,13 +2398,13 @@ Body: NEPTUNE (899)
 const nep097xl_899 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097xl-899.bsp")
 
 """
-A SPK kernel of size 7.7 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 731.5 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2430,13 +2430,13 @@ Body: NEREID (802)
 const nep101xl_802 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep101xl-802.bsp")
 
 """
-A SPK kernel of size 15.9 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 1.5 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2463,13 +2463,13 @@ Bodies: HALIMEDE (809)   SAO (811)        NESO (813)
 const nep101xl = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep101xl.bsp")
 
 """
-A SPK kernel of size 2.5 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 239.7 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2498,13 +2498,13 @@ Bodies: EARTH BARYCENTER (3)    HALIMEDE (809)          NESO (813)
 const nep102 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep102.bsp")
 
 """
-A SPK kernel of size 45.6 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 43.5 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2533,13 +2533,13 @@ Bodies: EARTH BARYCENTER (3)  CHARON (901)          STYX (905)
 const plu058 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/plu058.bsp")
 
 """
-A SPK kernel of size 9.2 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 9.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2565,13 +2565,13 @@ Body: DAPHNIS (635)
 const sat393_daphnis = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat393_daphnis.bsp")
 
 """
-A SPK kernel of size 6.2 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 595.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2601,13 +2601,13 @@ Bodies: EARTH BARYCENTER (3)   EPIMETHEUS (611)       METHONE (632)
 const sat415 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat415.bsp")
 
 """
-A SPK kernel of size 6.6 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 630.9 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2639,13 +2639,13 @@ Bodies: EARTH BARYCENTER (3)   DIONE (604)            TELESTO (613)
 const sat441 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441.bsp")
 
 """
-A SPK kernel of size 20.5 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 1.9 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2673,13 +2673,13 @@ Bodies: MIMAS (601)      DIONE (604)      HYPERION (607)   HELENE (612)
 const sat441xl_part_1 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441xl_part-1.bsp")
 
 """
-A SPK kernel of size 20.2 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 1.9 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2707,13 +2707,13 @@ Bodies: MIMAS (601)      DIONE (604)      HYPERION (607)   HELENE (612)
 const sat441xl_part_2 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441xl_part-2.bsp")
 
 """
-A SPK kernel of size 1.5 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 144.0 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2764,13 +2764,13 @@ Bodies: 654                    664                    65085
 const sat452 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat452.bsp")
 
 """
-A SPK kernel of size 2.0 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 190.1 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2823,13 +2823,13 @@ Bodies: EARTH BARYCENTER (3)   65102                  65130
 const sat453 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat453.bsp")
 
 """
-A SPK kernel of size 1.7 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 162.1 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2858,13 +2858,13 @@ Bodies: EARTH BARYCENTER (3)   ARIEL (701)            MIRANDA (705)
 const ura111 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111.bsp")
 
 """
-A SPK kernel of size 2.3 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 220.0 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2893,13 +2893,13 @@ Bodies: EARTH BARYCENTER (3)   ARIEL (701)            MIRANDA (705)
 const ura111l = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111l.bsp")
 
 """
-A SPK kernel of size 21.2 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 2.0 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2925,13 +2925,13 @@ Body: ARIEL (701)
 const ura111xl_701 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-701.bsp")
 
 """
-A SPK kernel of size 8.7 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 828.3 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2957,13 +2957,13 @@ Body: UMBRIEL (702)
 const ura111xl_702 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-702.bsp")
 
 """
-A SPK kernel of size 4.3 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 414.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -2989,13 +2989,13 @@ Body: TITANIA (703)
 const ura111xl_703 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-703.bsp")
 
 """
-A SPK kernel of size 4.3 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 414.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3021,13 +3021,13 @@ Body: OBERON (704)
 const ura111xl_704 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-704.bsp")
 
 """
-A SPK kernel of size 21.2 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 2.0 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3053,13 +3053,13 @@ Body: MIRANDA (705)
 const ura111xl_705 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-705.bsp")
 
 """
-A SPK kernel of size 10.6 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 1010.1 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3085,13 +3085,13 @@ Body: URANUS (799)
 const ura111xl_799 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-799.bsp")
 
 """
-A SPK kernel of size 15.3 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 1.4 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3122,13 +3122,13 @@ Bodies: EARTH BARYCENTER (3)   BIANCA (708)           BELINDA (714)
 const ura115 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura115.bsp")
 
 """
-A SPK kernel of size 1.0 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 97.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3158,13 +3158,13 @@ Bodies: EARTH BARYCENTER (3)   SYCORAX (717)          FRANCISCO (722)
 const ura116 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura116.bsp")
 
 """
-A SPK kernel of size 6.9 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 659.5 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3192,13 +3192,13 @@ Bodies: CALIBAN (716)    SETEBOS (719)    FRANCISCO (722)
 const ura116xl = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura116xl.bsp")
 
 """
-A SPK kernel of size 7.2 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 7.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3224,13 +3224,13 @@ Body: DSS-17 (399017)*
 const dss_17_prelim_itrf93_190814_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/dss_17_prelim_itrf93_190814.bsp")
 
 """
-A SPK kernel of size 11.3 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 11.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3256,13 +3256,13 @@ Body: DSS-23 (399023)*
 const dss_23_placeholder_itrf93_201017_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/dss_23_placeholder_itrf93_201017.bsp")
 
 """
-A SPK kernel of size 9.2 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 9.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3288,13 +3288,13 @@ Body: 399030*
 const dss_30_itrf93_210201_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/dss_30_itrf93_210201.bsp")
 
 """
-A SPK kernel of size 8.2 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 8.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3320,13 +3320,13 @@ Body: 399059*
 const dss_59_prelim_itrf93_220921_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/dss_59_prelim_itrf93_220921.bsp")
 
 """
-A SPK kernel of size 9.2 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 9.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3352,13 +3352,13 @@ Body: DSS-69 (399069)*
 const dss_69_prelim_itrf93_201215_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/dss_69_prelim_itrf93_201215.bsp")
 
 """
-A SPK kernel of size 26.6 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 26.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3388,13 +3388,13 @@ Bodies: DSS-13 (399013)*  DSS-26 (399026)*  DSS-45 (399045)*  DSS-63 (399063)*
 const earthstns_fx_201023 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/earthstns_fx_201023.bsp")
 
 """
-A SPK kernel of size 25.6 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 25.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3424,13 +3424,13 @@ Bodies: DSS-13 (399013)*  DSS-26 (399026)*  DSS-45 (399045)*  DSS-63 (399063)*
 const earthstns_itrf93_201023 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/earthstns_itrf93_201023.bsp")
 
 """
-A SPK kernel of size 228.4 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 223.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3505,13 +3505,13 @@ Bodies: 399100201*  399101371*  399101714*  399101901*  399104084*  399104263*
 const ndosl_140530_v01_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/ndosl_140530_v01.bsp")
 
 """
-A SPK kernel of size 241.7 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 236.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3589,13 +3589,13 @@ Bodies: 399100201*  399101372*  399101716*  399101855*  399104069*  399104259*
 const ndosl_190716_v01_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/ndosl_190716_v01.bsp")
 
 """
-A SPK kernel of size 241.7 KB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 236.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3673,13 +3673,13 @@ Bodies: 399100201*  399101372*  399101716*  399101855*  399104069*  399104259*
 const ndosl_190716_v02_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/ndosl_190716_v02.bsp")
 
 """
-A SPK kernel of size 1.8 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 167.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3710,13 +3710,13 @@ Bodies: 120050000  920050000
 const tnosat_v001_20050000_jpl043_20220908 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/tno/tnosat_v001_20050000_jpl043_20220908.bsp")
 
 """
-A SPK kernel of size 1.8 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 167.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3747,13 +3747,13 @@ Bodies: 120090482  920090482
 const tnosat_v001_20090482_jpl043_20220908 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/tno/tnosat_v001_20090482_jpl043_20220908.bsp")
 
 """
-A SPK kernel of size 1.8 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 167.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3784,13 +3784,13 @@ Bodies: 120120347  920120347
 const tnosat_v001_20120347_jpl025_20220908 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/tno/tnosat_v001_20120347_jpl025_20220908.bsp")
 
 """
-A SPK kernel of size 1.8 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 167.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3821,13 +3821,13 @@ Bodies: 120136199  920136199
 const tnosat_v001_20136199_jpl080_20220908 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/tno/tnosat_v001_20136199_jpl080_20220908.bsp")
 
 """
-A SPK kernel of size 1.8 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 167.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3858,13 +3858,13 @@ Bodies: 120469705  920469705
 const tnosat_v001_20469705_jpl009_20220908 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/tno/tnosat_v001_20469705_jpl009_20220908.bsp")
 
 """
-A SPK kernel of size 1.8 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 167.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3895,13 +3895,13 @@ Bodies: 120612095  920612095
 const tnosat_v001_20612095_jpl006_20220908 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/tno/tnosat_v001_20612095_jpl006_20220908.bsp")
 
 """
-A SPK kernel of size 1.8 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 167.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3932,13 +3932,13 @@ Bodies: 120612687  920612687
 const tnosat_v001_20612687_jpl008_20220908 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/tno/tnosat_v001_20612687_jpl008_20220908.bsp")
 
 """
-A SPK kernel of size 1.8 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 167.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -3969,13 +3969,13 @@ Bodies: 153031823  953031823
 const tnosat_v001_53031823_jpl010_20220908 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/tno/tnosat_v001_53031823_jpl010_20220908.bsp")
 
 """
-A SPK kernel of size 1.8 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 167.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -4006,13 +4006,13 @@ Bodies: 153092511  953092511
 const tnosat_v001_53092511_jpl005_20220908 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/tno/tnosat_v001_53092511_jpl005_20220908.bsp")
 
 """
-A SPK kernel of size 2.6 GB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 251.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
- This kernel's link was sourced on 2023-09-01.
+ This kernel's link was sourced on 2023-09-02.
 
 ## References
 
@@ -4078,7 +4078,7 @@ export
     naif0012_lsk,
     Gravity,
     de_403_masses,
-    earth_000101_231123_230830,
+    earth_000101_231124_230901,
     earth_200101_990825_predict,
     earth_720101_230601,
     earth_fixed,

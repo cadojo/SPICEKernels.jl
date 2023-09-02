@@ -82,13 +82,14 @@ see the output below, which was produced using `v1.0` of this package.
 help?> ?de440s
 search: de440s de440 gm_de440 moon_de440_220930 moon_pa_de440_200625
 
-  A SPK kernel of size 32.7 MB, linked from https://naif.jpl.nasa.gov [1]. Calling this variable like a function will
-  return a path to the file, downloading to scratchspace if necessary.
+  A SPK kernel of size 31.2 MB, linked from https://naif.jpl.nasa.gov [1]. Calling
+  this variable like a function will return a path to the file, downloading to
+  scratchspace if necessary.
 
   Extended Help
   ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 
-  This kernel's link was sourced on 2023-09-01.
+  This kernel's link was sourced on 2023-09-02.
 
   References
   ============
@@ -112,4 +113,5 @@ search: de440s de440 gm_de440 moon_de440_220930 moon_pa_de440_200625
           Start of Interval (ET)              End of Interval (ET)
           -----------------------------       -----------------------------
           1849 DEC 26 00:00:00.000            2150 JAN 22 00:00:00.000
+
 ```
