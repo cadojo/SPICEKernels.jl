@@ -117,12 +117,15 @@ function code!(kernels::AbstractSet{<:AbstractString}; force::Bool = false)
         size(file::AbstractString) = let 
             bytes = filesize(file)
 
-            if bytes >= 1e8
-                return "$(round(bytes / 1e8, digits=1)) GB"
-            elseif bytes >= 1e6
-                return "$(round(bytes / 1e6, digits=1)) MB"
+            KB = 1024
+            MB = KB^2
+            GB = KB^3
+            if bytes >= GB
+                return "$(round(bytes / GB, digits=1)) GB"
+            elseif bytes >= MB
+                return "$(round(bytes / MB, digits=1)) MB"
             else
-                return "$(round(bytes / 1e3, digits=1)) KB"
+                return "$(round(bytes / KB, digits=1)) KB"
             end
         end
 

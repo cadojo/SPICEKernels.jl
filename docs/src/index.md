@@ -2,6 +2,11 @@
 
 _Fetch NASA's generic SPICE kernels from within Julia!_
 
+!!! warning
+    This package is not affiliated with or endorsed by NASA, JPL, Caltech, or any other 
+    organization! This is an independently written package by an astrodynamics hobbyist.
+
+
 ```julia
 pkg> add SPICEKernels
 ```
@@ -62,7 +67,7 @@ kernel as a type for clarity in your code, you can construct your own kernels th
 
 !!! warning "Kernel Caching"
     All kernel names are assumed to be unique. If you're uncertain about the state of your
-    scratch space, you can clear it through `Scratch.clear_scratchspaces!(SPICEKernels).
+    scratch space, you can clear it through `Scratch.clear_scratchspaces!(SPICEKernels)`.
     Alternatively, you can simply specify `ignorecache=true` to force a re-download.
 
 ## Inspection
