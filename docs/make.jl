@@ -2,8 +2,8 @@ using Documenter, SPICEKernels
 
 makedocs(
     sitename="SPICEKernels",
-    format=Documenter.HTML(),
-    modules=[SPICEKernels]
+    format=Documenter.HTML(size_threshold=nothing),
+    modules=[SPICEKernels],
 )
 
 deploydocs(
