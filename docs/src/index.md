@@ -24,9 +24,9 @@ each kernel, and ensure your colleagues are downloading _the same_ kernel?
 `SPICEKernels.jl` provides a simple interface for downloading, caching, and inspecting
 all of NASA's publicly available Generic Kernels. A continuous integration pipeline is 
 used to check NASA's HTTP server every week, and any changes to the _names_ of the available
-kernels result in a new major version of this package. Non-substantive changes to kernel
-docstrings result in patch version updates, and new non-breaking features will cause 
-minor version updates. The point is, if you're using this package, a simple `Pkg.update()`
+kernels result in a new minor version of this package. Non-substantive changes to kernel
+docstrings result in patch version updates, and future breaking changes would cause 
+major version updates. The point is, if you're using this package, a simple `Pkg.update()`
 ensures that all of the kernel links are up-to-date and working, and all of the kernel 
 docstrings accurately describe their contents. Each kernel can be called like a function,
 i.e. [`de440s()`](@ref); this returns a path to the kernel file, downloading it from NASA's 
