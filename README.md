@@ -32,7 +32,7 @@ Inspect and download an ephemeris kernel from within Julia! The major version wi
 julia> using SPICE, SPICEKernels
 
 julia> furnsh(
-           de440s(),                   # position and velocity data for major solar system bodies
+           de440s(),                   # position and velocity data for nearby planets
            latest_leapseconds_lsk(),   # timekeeping, parsing epochs
            gm_de440(),                 # mass parameters for major solar system bodies
            pck00011(),                 # physical properties of major solar system bodies
@@ -41,8 +41,9 @@ julia> furnsh(
 help?> ?jup344
 search: jup344 jup344_nameid jup344_s2003_j24 jup344_s2003_j24_nameid jup346 jup346_nameid
 
-  A SPK kernel of size 297.5 MB, linked from https://naif.jpl.nasa.gov [1]. Calling this variable like a function
-  will return a path to the file, downloading to scratchspace if necessary.
+  A SPK kernel of size 297.5 MB, linked from https://naif.jpl.nasa.gov [1].
+  Calling this variable like a function will return a path to the file, downloading to
+  scratchspace if necessary.
 
   Extended Help
   ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
