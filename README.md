@@ -26,7 +26,7 @@ Pkg.add("SPICEKernels")
 
 ## Usage
 
-Inspect and download an ephemeris kernel from within Julia! The major version will not change without package _usage_ changing. New, modified, or removed kernels will increment the _minor_ version of this package. Patch versions are for non-breaking package changes.
+Inspect and download an ephemeris kernel from within Julia! The major version will not change without package _usage_ changing. New, modified, or removed kernels will increment the _patched_ version of this package. 
 
 ```julia
 julia> using SPICE, SPICEKernels
