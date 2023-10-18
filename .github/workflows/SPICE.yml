@@ -41,23 +41,25 @@ jobs:
       - name: Run Regression
         run: JULIA_DEBUG=Main,SPICEKernels julia --project=gen gen/make.jl
       - name: Bump Version
-        run: if [ -n "$(git status --porcelain)" ]; then
-          julia --project -e 'begin
-          using TOML
-          project = TOML.parsefile("Project.toml")
-          version = let version = project["version"]
-          @eval @v_str $version
-          end
-
-          major = version.major
-          minor = version.minor
-          patch = version.patch + 1
-
-          project["version"] = "$major.$minor.$patch"
-
-          open("Project.toml", "w") do file
-          TOML.print(file, project)
-          end
-          end';
+        run: 
+          if [ -n "$(git status --porcelain)" ]; then
+            julia --project -e 'begin
+              using TOML
+              project = TOML.parsefile("Project.toml")
+              version = let version = project["version"]
+              @eval @v_str $version
+              end
+    
+              major = version.major
+              minor = version.minor
+              patch = version.patch + 1
+    
+              project["version"] = "$major.$minor.$patch"
+    
+              open("Project.toml", "w") do file
+                TOML.print(file, project)
+              end
+            end';
+          fi
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
