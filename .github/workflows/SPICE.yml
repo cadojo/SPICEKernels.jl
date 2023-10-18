@@ -6,22 +6,34 @@ on:
   workflow_dispatch:
 
 jobs:
-  code:
+  auto:
+    name: Julia ${{ matrix.version }} - ${{ matrix.os }} - ${{ matrix.arch }} - ${{github.event_name }}
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: true
       matrix:
-        julia-version: [1]
-        julia-arch: [x86]
-        os: [ubuntu-latest]
+        version:
+          - "1"
+        os:
+          - ubuntu-latest
+        arch:
+          - x64
     steps:
-      - uses: julia-actions/setup-julia@latest
+      - uses: actions/checkout@v2
+      - uses: julia-actions/setup-julia@v1
         with:
-          version: ${{ matrix.julia-version }}
-      - name: Install dependencies
-        run:
-          ls -la
-          # julia --project=gen/ -e 'run(`ls $(pwd())`)'
-          # julia --project=gen/ -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
+          version: ${{ matrix.version }}
+          arch: ${{ matrix.arch }}
+      - uses: actions/cache@v1
+        env:
+          cache-name: cache-julia-depot
+        with:
+          path: ~/.julia
+          key: ${{ runner.os }}-auto-${{ env.cache-name }}-${{hashFiles('**/Project.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-auto-${{ env.cache-name }}-
+            ${{ runner.os }}-auto-
+            ${{ runner.os }}-
       - name: Run Regression
         run: JULIA_DEBUG=Main,SPICEKernels julia --project=gen gen/make.jl
       - name: Bump Version
