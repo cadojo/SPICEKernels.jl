@@ -89,6 +89,8 @@ function code!(kernels::AbstractSet{<:AbstractString}; force::Bool=false)
         @info "The following kernel names been added or removed: $changes."
     end
 
+    sort!(kernellist)
+
     mappath = abspath(joinpath(@__DIR__, "..", "src", "gen", "map.jl"))
 
     open(mappath, "w") do file
