@@ -77,10 +77,16 @@ Write all current kernel paths to the provided file name.
 function code!(kernels::AbstractSet{<:AbstractString}; force::Bool=false)
     kernellist = collect(kernels)
     oldkernels = collect(values(SPICEKernels.GENERIC_KERNELS))
+    difference = setdiff(kernellist, oldkernels)
 
-    if isempty(setdiff(kernellist, oldkernels)) && !force
+    if isempty(difference)
         @info "No changes to generic kernel paths."
-        return nothing
+        if !force
+            return nothing
+        end
+    elseif !force
+        changes = join(", ", difference)
+        @info "The following kernel names been added or removed: $changes."
     end
 
     mappath = abspath(joinpath(@__DIR__, "..", "src", "gen", "map.jl"))
@@ -190,7 +196,7 @@ function code!(kernels::AbstractSet{<:AbstractString}; force::Bool=false)
         write(file, join(toexport, ",\n    "))
     end
 
-    project = TOML.parsefile("../Project.toml")
+    project = TOML.parsefile(joinpath(@__DIR__, "..", "Project.toml"))
     version = let version = project["version"]
         @eval @v_str $version
     end
@@ -201,7 +207,7 @@ function code!(kernels::AbstractSet{<:AbstractString}; force::Bool=false)
 
     project["version"] = "$major.$minor.$patch"
 
-    open("../Project.toml", "w") do file
+    open(joinpath(@__DIR__, "..", "Project.toml"), "w") do file
         TOML.print(file, project)
     end
 
