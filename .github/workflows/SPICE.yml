@@ -19,8 +19,7 @@ jobs:
           version: ${{ matrix.julia-version }}
       - name: Install dependencies
         run:
-          pwd
-          ls -l
+          ls -la
           # julia --project=gen/ -e 'run(`ls $(pwd())`)'
           # julia --project=gen/ -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
       - name: Run Regression
