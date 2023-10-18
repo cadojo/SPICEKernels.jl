@@ -34,6 +34,8 @@ jobs:
             ${{ runner.os }}-auto-${{ env.cache-name }}-
             ${{ runner.os }}-auto-
             ${{ runner.os }}-
+      - name: Julia Dependencies
+        run: julia --project=gen/ -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
       - name: Run Regression
         run: JULIA_DEBUG=Main,SPICEKernels julia --project=gen gen/make.jl
       - name: Bump Version
