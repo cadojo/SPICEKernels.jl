@@ -44,3 +44,5 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.ACTIONS_TRIGGER_TOKEN }}
+          title: NASA Generic Kernel Updates
+          body: This PR was [automatically](https://github.com/cadojo/SPICEKernels.jl/blob/main/.github/workflows/SPICE.yml) generated because the generic kernel files on <nasa.gov> have changed. 
