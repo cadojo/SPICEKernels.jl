@@ -2,7 +2,7 @@ name: SPICE
 
 on:
   schedule:
-    - cron: '0 16 * * 4'
+    - cron: "0 16 * * 4"
   workflow_dispatch:
 
 jobs:
@@ -18,30 +18,30 @@ jobs:
         with:
           version: ${{ matrix.julia-version }}
       - name: Install dependencies
-        run: julia --project=gen/ -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
+        run:
+          julia --project=gen/ -e 'run(`ls $(pwd())`)'
+          # julia --project=gen/ -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
       - name: Run Regression
-        run:
-            JULIA_DEBUG=Main,SPICEKernels julia --project=gen gen/make.jl
+        run: JULIA_DEBUG=Main,SPICEKernels julia --project=gen gen/make.jl
       - name: Bump Version
-        run:
-          if [ -n "$(git status --porcelain)" ]; then
-            julia --project -e 'begin 
-              using TOML
-              project = TOML.parsefile("Project.toml")
-              version = let version = project["version"]
-                @eval @v_str $version
-              end
-  
-              major = version.major
-              minor = version.minor
-              patch = version.patch + 1
-  
-              project["version"] = "$major.$minor.$patch"
+        run: if [ -n "$(git status --porcelain)" ]; then
+          julia --project -e 'begin
+          using TOML
+          project = TOML.parsefile("Project.toml")
+          version = let version = project["version"]
+          @eval @v_str $version
+          end
 
-              open("Project.toml", "w") do file
-                TOML.print(file, project)
-              end
-            end';
+          major = version.major
+          minor = version.minor
+          patch = version.patch + 1
+
+          project["version"] = "$major.$minor.$patch"
+
+          open("Project.toml", "w") do file
+          TOML.print(file, project)
+          end
+          end';
   pull-request:
     runs-on: ${{ matrix.os }}
     strategy:
