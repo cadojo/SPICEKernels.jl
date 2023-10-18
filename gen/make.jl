@@ -77,10 +77,8 @@ Write all current kernel paths to the provided file name.
 function code!(kernels::AbstractSet{<:AbstractString}; force::Bool=false)
     kernellist = collect(kernels)
     oldkernels = collect(values(SPICEKernels.GENERIC_KERNELS))
-    sort!(kernellist)
-    sort!(oldkernels)
 
-    if !(force || kernellist != oldkernels)
+    if isempty(setdiff(kernellist, oldkernels)) && !force
         @info "No changes to generic kernel paths."
         return nothing
     end
@@ -216,4 +214,4 @@ end
 # The script portion!
 # 
 
-code!(traverse(SPICEKernels.GENERIC_KERNEL_URL); force="--force" in lowercase.(ARGS))
+code!(traverse(SPICEKernels.GENERIC_KERNEL_URL); force="force" in lowercase.(ARGS))
