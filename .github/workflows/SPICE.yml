@@ -19,7 +19,9 @@ jobs:
         arch:
           - x64
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - name: Install Lynx
+        run: bash -c 'sudo apt install lynx'
       - uses: julia-actions/setup-julia@v1
         with:
           version: ${{ matrix.version }}
@@ -57,12 +59,5 @@ jobs:
           TOML.print(file, project)
           end
           end';
-  pull-request:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-    steps:
-      - uses: actions/checkout@v3
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
