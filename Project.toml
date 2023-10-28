@@ -13,6 +13,7 @@ Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 
 [compat]
 DocStringExtensions = "0.9"
+Downloads = "1"
 HTTP = "1"
 SPICEApplications = "0.3"
 Scratch = "1"
