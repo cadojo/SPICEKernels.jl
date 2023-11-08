@@ -2,7 +2,7 @@ name: SPICE
 
 on:
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "0 */4 * * *"
   workflow_dispatch:
 
 jobs:
