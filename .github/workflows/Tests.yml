@@ -36,11 +36,3 @@ jobs:
             ${{ runner.os }}-test-${{ env.cache-name }}-${{ runner.os }}-test-${{ runner.os }}-
       - uses: julia-actions/julia-buildpkg@latest
       - uses: julia-actions/julia-runtest@latest
-      - name: Trigger JuliaRegistrator
-        if: github.event.pull_request.merged == true
-        uses: peter-evans/commit-comment@v3
-        with:
-          body: |
-            @JuliaRegistrator register
-
-            This comment was generated with `commit-comment` and [`Tests.yml`](/.github/workflows/Tests.yml).
