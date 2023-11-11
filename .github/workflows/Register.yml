@@ -1,11 +1,12 @@
 name: Register
+
 on:
   workflow_run:
     workflows: ["Test"]
-    types: [requested]
-    branches:
-      - "main"
+    types: [completed]
+    branches: ["main"]
   workflow_dispatch:
+
 jobs:
   release:
     name: Register Package
