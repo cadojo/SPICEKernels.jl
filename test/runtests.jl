@@ -3,13 +3,13 @@ using SPICEKernels
 
 Scratch.clear_scratchspaces!(SPICEKernels)
 
-KERNEL = let 
+KERNEL = let
     iskernel(x) = getproperty(SPICEKernels, x) isa SPICEKernels.SPICEKernel && isconcretetype(typeof(getproperty(SPICEKernels, x)))
     all = map(name -> getproperty(SPICEKernels, name), filter(iskernel, propertynames(SPICEKernels)))
     rand(all)
 end
 
-@info "Using $KERNEL"
+@info "Testing $KERNEL"
 
 @testset "Kernel Downloading" begin
     @test KERNEL(ignorecache=true) isa String
