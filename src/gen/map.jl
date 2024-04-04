@@ -3,7 +3,7 @@
 #
 
 """
-Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2024-04-03. [1]
+Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2024-04-04. [1]
 
 # Extended Help
 
@@ -51,7 +51,7 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "naif0012.tls.pc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0012.tls.pc",
     "Gravity.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/Gravity.tpc",
     "de-403-masses.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/de-403-masses.tpc",
-    "earth_000101_240626_240402.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_240626_240402.bpc",
+    "earth_000101_240627_240403.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_240627_240403.bpc",
     "earth_200101_990825_predict.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_200101_990825_predict.bpc",
     "earth_720101_230601.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_720101_230601.bpc",
     "earth_fixed.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_fixed.tf",
@@ -99,7 +99,7 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "nep101xl-802.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep101xl-802.bsp",
     "nep101xl.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep101xl.bsp",
     "nep103.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep103.bsp",
-    "plu058.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/plu058.bsp",
+    "plu060.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/plu060.bsp",
     "sat393_daphnis.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat393_daphnis.bsp",
     "sat415.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat415.bsp",
     "sat441.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441.bsp",
