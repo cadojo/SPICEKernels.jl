@@ -4,6 +4,10 @@ makedocs(
     sitename="SPICEKernels",
     format=Documenter.HTML(size_threshold=nothing),
     modules=[SPICEKernels],
+    pages=[
+        "Overview" => "index.md",
+        "Reference" => "reference/index.md",
+    ]
 )
 
 deploydocs(

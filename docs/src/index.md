@@ -6,9 +6,10 @@ _Fetch NASA's generic SPICE kernels from within Julia!_
     This package is not affiliated with or endorsed by NASA, JPL, Caltech, or any other 
     organization! This is an independently written package by an astrodynamics hobbyist.
 
+## Installation 
 
 ```julia
-pkg> add SPICEKernels
+pkg> add SPICEKernels # or `Pkg.add("SPICEKernels")`
 ```
 
 ## Motivation
