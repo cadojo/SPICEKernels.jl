@@ -1,4 +1,4 @@
-> ![IMPORTANT]
+> [!IMPORTANT]
 > This project is active, but has been moved to [`cadojo/EphemerisSources.jl`](https://github.com/cadojo/EphemerisSources.jl).
 
 [![Tests](https://github.com/cadojo/SPICEKernels.jl/workflows/Tests/badge.svg)](https://github.com/cadojo/SPICEKernels.jl/actions?query=workflow%3ATests)
