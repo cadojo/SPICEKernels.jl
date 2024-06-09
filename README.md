@@ -1,5 +1,3 @@
----
-
 > [!IMPORTANT]
 > This project is active, but has been moved to [`cadojo/EphemerisSources.jl`](https://github.com/cadojo/EphemerisSources.jl).
 
