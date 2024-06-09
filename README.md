@@ -1,3 +1,6 @@
+> ![IMPORTANT]
+> This project is active, but has been moved to [`cadojo/EphemerisSources.jl`](https://github.com/cadojo/EphemerisSources.jl).
+
 [![Tests](https://github.com/cadojo/SPICEKernels.jl/workflows/Tests/badge.svg)](https://github.com/cadojo/SPICEKernels.jl/actions?query=workflow%3ATests)
 [![Docs](https://github.com/cadojo/SPICEKernels.jl/workflows/Documentation/badge.svg)](https://cadojo.github.io/SPICEKernels.jl)
 [![SciML Code Style](https://img.shields.io/static/v1?label=Style&message=SciML&color=9668e2&labelColor=3E474F)](https://github.com/SciML/SciMLStyle)
